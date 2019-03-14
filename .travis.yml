@@ -19,8 +19,5 @@ before_install:
   - perl -V
 install:
   - cpan-install --deps
-  - cpan-install Dist::Zilla
-  - dzil authordeps | cpanm --notest
-  - dzil build --in $(builddir)
 script:
   - prove -l $(test-dirs)
