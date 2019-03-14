@@ -18,6 +18,9 @@ before_install:
   - build-perl
   - perl -V
 install:
-  - cpan-install --deps       # installs prereqs, including recommends
+  - cpan-install --deps
+  - cpan-install Dist::Zilla
+  - dzil authordeps | cpanm --notest
+  - dzil build --in $(builddir)
 script:
   - prove -l $(test-dirs)
