@@ -10,7 +10,7 @@ Bundle of modules used by Perl5 plugin for IntelliJ IDEs (about 69 modules inclu
     - [File::Find](https://perldoc.perl.org/File/Find.html)
     - [JSON](https://metacpan.org/release/JSON)
 - Module management
-    - [App::cpanminus](https://metacpan.org/release/App-cpanminus) - installing new modules
+    - [App::cpanminus](https://metacpan.org/release/App-cpanminus) 
 - Coverage
     - [Devel::Cover](https://metacpan.org/release/Devel-Cover)
 - Debugging
@@ -18,7 +18,7 @@ Bundle of modules used by Perl5 plugin for IntelliJ IDEs (about 69 modules inclu
 - Profiling
     - [Devel::NYTProf](https://metacpan.org/release/Devel-NYTProf)
 - Testing
-    - [Test::Harness](https://metacpan.org/release/Test-Harness) - running tests
+    - [Test::Harness](https://metacpan.org/release/Test-Harness) 
     - [App::Prove::Plugin::PassEnv](https://metacpan.org/release/App-Prove-Plugin-PassEnv) - coverage and debugging for tests
     - [TAP::Formatter::Camelcade](https://metacpan.org/release/TAP-Formatter-Camelcade) - converting perl test results to the format understandable by the IDE
 - Source Code Analysis
