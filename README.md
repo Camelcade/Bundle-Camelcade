@@ -14,13 +14,13 @@ Bundle of modules used by Perl5 plugin for IntelliJ IDEs (about 69 modules inclu
 - Coverage
     - [Devel::Cover](https://metacpan.org/release/Devel-Cover)
 - Debugging
-    - [Devel::Camelcadedb](https://metacpan.org/release/Devel-Camelcadedb)
+    - [Devel::Camelcadedb](https://github.com/Camelcade/Devel-Camelcadedb)
 - Profiling
     - [Devel::NYTProf](https://metacpan.org/release/Devel-NYTProf)
 - Testing
     - [Test::Harness](https://metacpan.org/release/Test-Harness) 
-    - [App::Prove::Plugin::PassEnv](https://metacpan.org/release/App-Prove-Plugin-PassEnv) - coverage and debugging for tests
-    - [TAP::Formatter::Camelcade](https://metacpan.org/release/TAP-Formatter-Camelcade) - converting perl test results to the format understandable by the IDE
+    - [App::Prove::Plugin::PassEnv](https://github.com/Camelcade/App-Prove-Plugin-PassEnv) - coverage and debugging for tests
+    - [TAP::Formatter::Camelcade](https://github.com/Camelcade/TAP-Formatter-Camelcade) - converting perl test results to the format understandable by the IDE
 - Source Code Analysis
     - [Perl::Critic](https://metacpan.org/release/Perl-Critic)
 - Source Code Formatting    
