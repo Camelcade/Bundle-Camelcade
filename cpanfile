@@ -13,8 +13,8 @@ requires "JSON" => "0";
 requires "Perl::Critic" => "0";
 requires "Perl::Tidy" => "0";
 requires "TAP::Formatter::Camelcade" => "0";
-requires "TAP::Harness::Env" => "0";
 requires "Test::Harness" => "0";
+requires "Test::Warnings" => "0";
 
 on 'configure' => sub {
   requires "ExtUtils::MakeMaker" => "0";
