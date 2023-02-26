@@ -1,6 +1,6 @@
 # Bundle::Camelcade
 
-[![Build Status](https://travis-ci.org/Camelcade/Bundle-Camelcade.svg?branch=master)](https://travis-ci.org/Camelcade/Bundle-Camelcade)
+[![Testing](https://github.com/Camelcade/Bundle-Camelcade/actions/workflows/main.yml/badge.svg)](https://github.com/Camelcade/Bundle-Camelcade/actions/workflows/main.yml)
 
 Bundle of modules used by Perl5 plugin for IntelliJ IDEs (about 69 modules including dependencies):
 
