@@ -28,9 +28,8 @@ jobs:
         with:
           perl-version: ${{ matrix.perl }}
           install-modules-with: cpanm
-          install-modules-args: --nocache
+          install-modules-args: --no-notest
+          enable-modules-cache: false
       - name: Testing
         run: |
-          cpanm --installdeps .
           prove -lv t
-
