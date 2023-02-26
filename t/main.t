@@ -19,4 +19,10 @@ use_ok($_) for qw/
     Test::Harness
 /;
 
+$ENV{PERL5_DEBUG_AUTOSTART} = 0;
+$ENV{PERL5_DEBUG_ROLE} = 'server';
+$ENV{PERL5_DEBUG_HOST} = 'localhost';
+$ENV{PERL5_DEBUG_PORT} = 123;
+use_ok 'Devel::Camelcadedb';
+
 done_testing;
